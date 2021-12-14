@@ -42,7 +42,7 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- 38.94.241.106
+- (Internet IP Address)
 
 Machines within the network can only be accessed by SSH.
 -The Jump Box is allowed access to the ELK VM from its private ip address 10.0.0.4
@@ -51,7 +51,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | YES                 | 38.94.241.106        |
+| Jump Box | YES                 | Internet IP Address  |
 | ELK      | NO                  | 10.0.0.1-254         |
 | DVWA 1   | NO                  | 10.0.0.1-254         |
 | DVWA 2   | NO                  | 10.0.0.1-254         |
